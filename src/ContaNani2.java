@@ -1,6 +1,6 @@
 public class ContaNani2 extends Thread{
     public ContaNani2(String nome){
-        super()
+        super();
         setName(nome);
     }
 
@@ -11,10 +11,6 @@ public class ContaNani2 extends Thread{
         }
     }
 
-    public static void main(String args[]){
-        Thread thr1=new ContaNani2("topolino");
-        Thread thr2=new ContaNani2("pippo");
-        thr1.start();
-        thr2.start();
-    }
+    
+    
 }
